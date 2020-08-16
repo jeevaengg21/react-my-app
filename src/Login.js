@@ -20,7 +20,7 @@ class Login extends Component {
                 <MuiThemeProvider>
                     <div>
                         <AppBar
-                            title="Sample React Login"
+                            title="Sample React Login [CD]"
                         />
                         <TextField
                             hintText="Enter your Username"
