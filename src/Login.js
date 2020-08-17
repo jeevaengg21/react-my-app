@@ -43,12 +43,12 @@ class Login extends Component {
     }
 
     handleClick(event) {
-        var apiBaseUrl = "http://localhost:4000/api/";
+        // var apiBaseUrl = "http://localhost:4000/api/";
         var self = this;
-        var payload = {
-            "email": this.state.username,
-            "password": this.state.password
-        }
+        // var payload = {
+        //     "email": this.state.username,
+        //     "password": this.state.password
+        // }
         console.log("Login successfull");
         var uploadScreen = [];
         uploadScreen.push(<UploadScreen appContext={self.props.appContext} />)
